@@ -13,7 +13,7 @@ It uses **Elo ratings** and simple feature engineering, then trains an **XGBoost
 ## Project Structure
 ```
 epl-prediction-model/
-├─ data/            # place your CSV here (e.g. Football-Data EPL matches)
+├─ data/            # EPL Data from 2024/2025 Season
 ├─ models/          # trained model saved here
 ├─ epl_model.py     # training script
 ├─ requirements.txt # dependencies
