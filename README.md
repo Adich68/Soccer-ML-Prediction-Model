@@ -4,7 +4,7 @@ This project builds a machine learning model to predict **English Premier League
 It uses **Elo ratings** and simple feature engineering, then trains an **XGBoost classifier** to generate calibrated probabilities.  
 
 ## Features
-- Historical EPL match data (Football-Data.co.uk / Kaggle datasets)
+- Historical EPL match data (https://www.football-data.co.uk/englandm.php)
 - Feature engineering: Elo ratings, home advantage, team form
 - ML model: XGBoost + probability calibration
 - Evaluation: Accuracy + Log Loss
